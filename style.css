@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.current-weather {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+    font-family: sans-serif;
+    color: cornsilk;
+}
+
+.location,
+.temperature {
+    /* height: 30vh; */
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature {
+    flex-direction: column;
+}
+
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section span {
+    margin: 10px;
+    font-size: 30px;
+    content: "\00B0";
+}
+
+.degree-section h2 {
+    font-size: 40px;
+}
+
+.time {
+    /* padding-left: 50px; */
+    /* margin: 0px auto; */
+    display: flex;
+    flex-direction: row;
+}
+
+.time p {
+    align-items: center;
+    padding-left: 10px
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+button {
+    border-radius: 5px;
+    background-color: crimson;
+    color: cyan;
+    font-size: 7px;
+    padding: 5px;
+}
+
+#hourly-forecast {
+    display: flex;
+    flex-direction: column;
+}
+
+#hourly-forecast div {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px 0px 20px
+}
+
+#hourly-forecast img {
+    width: 50px
+}
+
+#daily-forecast div {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px 0px 20px
+}

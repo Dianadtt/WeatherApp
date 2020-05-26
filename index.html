@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="location">
+        <h1 class="location-timezone">Berlin</h1>
+
+        <img id="icon" src=" " alt=""></img>
+
+    </div>
+
+    <div class="time">
+        <p class="time-sunrize">sunrise</p>
+        <p class="time-current">time</p>
+        <p class="time-sunset">sunset</p>
+    </div>
+
+    <div class="temperature">
+        <div class="degree-section">
+            <h2 class="temperature-degree">...</h2>
+
+
+            <!-- <span>F</span> -->
+        </div>
+        <div class="temperature-description">It's cold</div>
+    </div>
+    <div class=buttons>
+        <button id="hourly">Display Hourly Forecast</button>
+        <button id="daily">Display Daily Forecast</button>
+    </div>
+
+    <div id="hourly-forecast"></div>
+    <div id="daily-forecast"></div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
