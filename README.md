@@ -1,5 +1,8 @@
 # WeatherApp
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6d1471fc34aede7a54f53cf8024e26e08984086e
 Geolocation & Ajax Challenge
 Combine Geolocation API and Fetch API to get the weather for your current location:
 
@@ -20,3 +23,7 @@ https://openweathermap.org/current#geo
 https://openweathermap.org/api/hourly-forecast#geo5
 
 https://openweathermap.org/forecast16#geo16
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6d1471fc34aede7a54f53cf8024e26e08984086e
