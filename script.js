@@ -94,6 +94,11 @@ function renderHourly(icon, temperature, timeInUnix, hourlyDescription) {
     const container = document.createElement("div")
     houryForecastDiv.appendChild(container)
 
+    const image = document.createElement("img")
+    const iconUrl = `http://openweathermap.org/img/wn/${icon}@2x.png`
+    image.setAttribute("src", iconUrl)
+    container.appendChild(image)
+
     temp = document.createElement("div")
     let celsius = Math.floor(temperature - 273.15)
     temp.innerHTML = celsius + "&#8451"
@@ -101,17 +106,14 @@ function renderHourly(icon, temperature, timeInUnix, hourlyDescription) {
 
     htime = document.createElement("div")
     let hour = formatedTime(timeInUnix)
-    htime.textContent = `Update: ${ hour }`
+    htime.textContent = `Time: ${ hour }`
     container.appendChild(htime)
 
     const description = document.createElement("div")
     description.innerHTML = hourlyDescription
     container.appendChild(description)
 
-    const image = document.createElement("img")
-    const iconUrl = `http://openweathermap.org/img/wn/${icon}@2x.png`
-    image.setAttribute("src", iconUrl)
-    container.appendChild(image)
+
 }
 
 displayDailyForecast = (data) => {

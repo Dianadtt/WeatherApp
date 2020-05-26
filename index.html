@@ -9,32 +9,30 @@
 </head>
 
 <body>
-
-    <div class="location">
-        <h1 class="location-timezone">Berlin</h1>
-
-        <img id="icon" src=" " alt=""></img>
-
-    </div>
-
-    <div class="time">
-        <p class="time-sunrize">sunrise</p>
-        <p class="time-current">time</p>
-        <p class="time-sunset">sunset</p>
-    </div>
-
-    <div class="temperature">
-        <div class="degree-section">
-            <h2 class="temperature-degree">...</h2>
-
-
-            <!-- <span>F</span> -->
+    <div id="container">
+        <div class="location">
+            <h1 class="location-timezone">Loading...</h1>
+            <img id="icon" src=" " alt=""></img>
         </div>
-        <div class="temperature-description">It's cold</div>
-    </div>
-    <div class=buttons>
-        <button id="hourly">Display Hourly Forecast</button>
-        <button id="daily">Display Daily Forecast</button>
+
+        <div class="time">
+            <p class="time-sunrize">Sunrise...</p>
+            <p class="time-current">Time</p>
+            <p class="time-sunset">Sunset</p>
+        </div>
+
+        <div class="temperature">
+            <div class="degree-section">
+                <h2 class="temperature-degree">...</h2>
+            </div>
+            <div class="temperature-description">It's cold</div>
+        </div>
+
+        <div class=buttons>
+            <button id="hourly">Display Hourly Forecast</button>
+            <button id="daily">Display Daily Forecast</button>
+        </div>
+
     </div>
 
     <div id="hourly-forecast"></div>
